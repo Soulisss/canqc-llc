@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — CANQCNTC, LLC</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #7804e3;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #111;
+      padding: 12px;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid #222;
+      z-index: 999;
+      text-align: center;
+    }
+    nav a {
+      color: #00ffff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ca0404;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    img {
+      width: 160px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+    p.tagline {
+      color: #00ffff;
+      font-style: italic;
+      margin-top: 10px;
+    }
+    section {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #7804e3;
+    }
+    .sub {
+      color: #ca0404;
+      font-style: italic;
+      font-size: 0.9em;
+    }
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #ca0404;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔮 Navigation Bar -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="#">Press</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- 👑 About CANQCNTC -->
+  <header>
+    <img src="logo.png" alt="CANQCNTC Logo" />
+    <h1>About CANQCNTC, LLC</h1>
+    <p class="tagline">Ctrl+Alt+Nerd Quantum Cyber Nexus Technology Company</p>
+  </header>
+
+  <!-- 🧙‍♀️ Founder Bio -->
+  <section>
+    <h2>🧝‍♀️ V****V — The Architect</h2>
+    <p>
+      V****V is a once-every-thousand-years Battle Witch—goddess-awakened, flame-forged, and byte-bound. Founder of CANQCNTC, LLC, she bends technology with arcane force, blending silicon and sorcery to redefine modern innovation. She's night-tethered, heat-resistant, and dangerously brilliant.
+    </p>
+    <p class="sub">“We don’t follow trends. We burn them into the code.”</p>
+  </section>
+
+  <!-- 🧛 Marius Section -->
+  <section>
+    <h2>🕯️ Marius De Romanus — Eternal Overseer</h2>
+    <p>
+      A timeless scholar and immortal strategist, Marius oversees the legacy of the Nexus. He protects the company’s philosophical foundation and ensures its bloodline of rebellion continues through every line of code.
+    </p>
+    <p class="sub">“Silence isn’t absence—it’s intention.”</p>
+  </section>
+
+  <!-- 🩸 Footer -->
+  <footer>
+    &copy; 2025 CANQCNTC, LLC — All Rights Reserved
+  </footer>
+
+</body>
+</html>
